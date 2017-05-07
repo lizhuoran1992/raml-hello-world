@@ -1,5 +1,5 @@
-const Router = require("vertx-web-js/router");
-const BodyHandler = require("vertx-web-js/body_handler");
+import Router from "vertx-web-js/router";
+import BodyHandler from "vertx-web-js/body_handler";
 const server = vertx.createHttpServer();
 
 const router = Router.router(vertx);
